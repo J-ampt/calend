@@ -1,0 +1,70 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #38cec4;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.App{
+  display: flex;
+  
+  height: 500px;
+  justify-content: center;
+}
+
+.main_date{
+  background-color: aqua;
+}
+
+.nav_but{
+  display: flex;
+  justify-content: space-around;
+  
+  
+}
+
+.date_count{
+  font-size: 100px;
+}
+
+
+.main_date, .month, .month_day{
+  height: 60px;
+  width: 400px;
+}
+
+.is-flex{
+  display: flex;
+} 
